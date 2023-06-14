@@ -15,7 +15,6 @@
   functions over shapes for their heights, centers, areas, etc. Can also
   compute relationships between shapes: their intersections, contains, disjoint
   statuses, etc."
-  (:use [clojure.math.numeric-tower :only [abs]])
   (:require [geo.crs :as crs]
             [geo.jts :as jts])
   (:import (ch.hsr.geohash WGS84Point)
